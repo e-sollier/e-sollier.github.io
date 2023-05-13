@@ -212,9 +212,9 @@ blockquote {
   margin-right: 1rem;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 276px) {
   .profile {
-    width: 30%;
+    width: 17%;
   }
   .profile .address p {
     display: block;
@@ -397,6 +397,10 @@ footer.sticky-bottom {
     max-width: 50%;
   }
 }
+.blueNav {
+  color: var(--global-theme-color);
+}
+
 .header-bar {
   border-bottom: 1px solid var(--global-divider-color);
   text-align: center;
