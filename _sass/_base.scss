@@ -133,9 +133,9 @@ blockquote {
   margin-right: 1rem;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 276px) {
   .profile {
-    width: 30%;
+    width: 17%;
 
     .address {
       p {
@@ -201,6 +201,7 @@ blockquote {
       text-decoration: none;
     }
   }
+  
 
   .navbar-brand {
     color: var(--global-text-color);
@@ -378,6 +379,11 @@ footer.sticky-bottom {
   .repo {
     max-width: 50%;
   }
+}
+
+// Test
+.blueNav{
+  color: var(--global-theme-color);
 }
 
 // Blog
